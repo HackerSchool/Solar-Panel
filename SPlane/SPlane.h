@@ -29,13 +29,15 @@
 
 #include <Arduino.h>
 
+// Usar class de Arrays em vez de primitivo
+
 class SPlane
 {
 public:
     SPlane(int ldr_pins[]);
     void read();
     // passar uma referência da array em vez da array toda para poupar espaço e ser mais rápido
-    void generatePlane(float &s);
+    void generatePlane(float (&s)[3]);
     float s_vector[3];
 
 private:

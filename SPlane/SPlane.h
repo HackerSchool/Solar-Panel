@@ -2,9 +2,10 @@
  * @file SPlane.h
  * @author filipe-varela
  * @brief
- * A class in which generates a plane from a series of LDRs' readings. The readings are
- * converted suffers a signal conditioning, in which goes from `[0..1043]` -> `[0..100]`,
- * with `0` being converted to `100` and `1043` to `0`.
+ * A class in which generates a plane from a series of LDRs' readings. The
+ * readings suffered afterwards a signal conditioning, in which goes from
+ * `[0..1043]` -> `[0..100]`, with `0` being converted to `100` and `1043`
+ * to `0`.
  * @version 0.1
  * @date 2022-07-28
  *

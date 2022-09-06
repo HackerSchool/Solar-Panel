@@ -28,10 +28,10 @@ void setup() {
 }
 
 void loop() {
-    float ldr1 = analogRead(A0);
-    float ldr2 = analogRead(A1);
-    float ldr3 = analogRead(A2);
-    float ldr4 = analogRead(A3);
+    double ldr1 = analogRead(A0);
+    double ldr2 = analogRead(A1);
+    double ldr3 = analogRead(A2);
+    double ldr4 = analogRead(A3);
 
     q1 += (ldr4-ldr2)/(1023.0)*90.0;
     q2 += (ldr3-ldr1)/(1023.0)*90.0;
